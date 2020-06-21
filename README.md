@@ -1,36 +1,34 @@
-# tldr
+<div align="center">
+<h1><img alt="tldr-pages" src="images/banner-light.png" width=600/></h1>
 
 [![Build status][travis-image]][travis-url]
 [![Gitter chat][gitter-image]][gitter-url]
 [![Merged PRs][prs-merged-image]][prs-merged-url]
-[![Issue stats][issuestats-image]][issuestats-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
 
 [travis-url]: https://travis-ci.org/tldr-pages/tldr/builds
 [travis-image]: https://travis-ci.org/tldr-pages/tldr.svg?branch=master
 [gitter-url]: https://gitter.im/tldr-pages/tldr
-[gitter-image]: https://badges.gitter.im/tldr-pages/tldr.svg
+[gitter-image]: https://img.shields.io/badge/chat-on_gitter-deeppink
 [prs-merged-url]: https://github.com/tldr-pages/tldr/pulls?q=is:pr+is:merged
-[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs
-[issuestats-url]: http://isitmaintained.com/project/tldr-pages/tldr
-[issuestats-image]: http://isitmaintained.com/badge/resolution/tldr-pages/tldr.svg
+[prs-merged-image]: https://img.shields.io/github/issues-pr-closed-raw/tldr-pages/tldr.svg?label=merged+PRs&color=green
 [contributors-url]: https://github.com/tldr-pages/tldr/graphs/contributors
 [contributors-image]: https://img.shields.io/github/contributors/tldr-pages/tldr.svg
 [license-url]: https://github.com/tldr-pages/tldr/blob/master/LICENSE.md
-[license-image]: https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg
-
-A collection of simplified and community-driven man pages.
-
-Install it with `npm install -g tldr`
-or [try the web client](http://tldr.ostera.io).
+[license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg
+</div>
 
 ## What is tldr-pages?
 
-New to the command-line world? Or just a little rusty?
+The **tldr-pages** project is a collection of community-maintained help pages
+for command-line tools, that aims to be a simpler, more approachable complement
+to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
+
+Maybe you are new to the command-line world? Or just a little rusty?
 Or perhaps you can't always remember the arguments to `lsof`, or `tar`?
 
-Maybe it doesn't help that the first option explained in `man tar` is:
+It certainly doesn't help that the first option explained in `man tar` is:
 
 ```
 -b blocksize
@@ -39,18 +37,27 @@ Maybe it doesn't help that the first option explained in `man tar` is:
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
 ```
 
-Surely people could benefit from simplified man pages
-focused on practical examples.
+There seems to be room for simpler help pages, focused on practical examples.
 How about:
 
 ![screenshot of the tldr-node-client displaying the tldr page for the tar command](images/screenshot.png)
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS and Windows commands.
+for the most common UNIX, Linux, macOS, SunOS and Windows command-line tools.
 
-## Clients
+## How do I use it?
 
-You can access these pages on your computer using one of the following clients:
+A popular and convenient way to access these pages on your computer
+is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
+which is supported by the tldr-pages project maintainers:
+
+    npm install -g tldr
+
+That way you can write `tldr tar` in the terminal to show the tldr page for `tar`,
+just like you would write `man tar` to show its manpage.
+
+There are also various other clients provided by the community,
+both for the command line and for other platforms:
 
 - [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
 - [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
@@ -128,12 +135,15 @@ You can access these pages on your computer using one of the following clients:
 There is also a comprehensive
 [list of clients in our Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
 
-## Contributing
+## How do I contribute?
 
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-Contributions are most welcome!
+All `tldr` pages are kept as markdown files right here in this repository,
+so you can edit them directly and submit your changes as pull requests.
+
+All contributions are welcome!
 We strive to maintain a [welcoming and collaborative](GOVERNANCE.md) community.
 Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
 
