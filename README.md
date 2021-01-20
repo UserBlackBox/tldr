@@ -59,7 +59,9 @@ just like you would write `man tar` to show its manpage.
 There are also various other clients provided by the community,
 both for the command line and for other platforms:
 
-- [Alfred Workflow](https://github.com/cs1707/tldr-alfred)
+- Alfred Workflow
+  - [tldr-alfred](https://github.com/cs1707/tldr-alfred)
+  - [alfred-tldr](https://github.com/konoui/alfred-tldr)
 - [Albert Plugin](https://github.com/bergercookie/awesome-albert-plugins/tree/master/plugins/tldr_pages)
 - Android clients:
   - [tldroid](https://github.com/hidroh/tldroid), available on
@@ -107,9 +109,13 @@ both for the command line and for other platforms:
     [App Store](https://appsto.re/sg/IQ0-_.i)
   - [tldr-pages](https://github.com/mflint/ios-tldr-viewer), available on
     [App Store](https://itunes.apple.com/us/app/tldt-pages/id1071725095?ls=1&mt=8)
-- [Haskell client](https://github.com/psibi/tldr-hs):
+- Haskell clients:
+  - [tldr-hs](https://github.com/psibi/tldr-hs):
   `stack install tldr`
   or `apt-get install tldr` on Debian-based distributions
+  - [fast-tldr](https://github.com/gutjuri/fast-tldr)
+- [Java client](https://github.com/seenukarthi/tldr-java-client)
+- [Keypirinha Plugin](https://github.com/ronan696/keypirinha-tldr)
 - [Node.js client](https://github.com/tldr-pages/tldr-node-client):
   `npm install -g tldr`
 - [OCaml client](https://github.com/RosalesJ/tldr-ocaml): `opam install tldr`
@@ -143,7 +149,7 @@ There is also a comprehensive
 - Your favourite command isn't covered?
 - You can think of more examples for an existing command?
 
-All `tldr` pages are kept as markdown files right here in this repository,
+All `tldr` pages are kept as Markdown files right here in this repository,
 so you can edit them directly and submit your changes as pull requests.
 
 All contributions are welcome!
@@ -163,14 +169,23 @@ Have a look at the [contributing guidelines](CONTRIBUTING.md), and go ahead!
   The examples are submitted by the user base, and can be voted up or down;
   the best entries are what people see first when they look up a command.
 
+- [kb](https://github.com/gnebbia/kb)
+  is a minimalist command line knowledge base manager.
+  kb can be used to organize your notes and cheatsheets in a minimalist
+  and clean way. It supports also non-text files.
+
 - [eg](https://github.com/srsudar/eg)
   provides detailed examples with explanations on the command line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
+
+- [devhints](https://devhints.io/)
+  Rico's cheatsheets are not just focused on the command line and
+  include a plethora of other cheatsheets related to programming.
 
 ## What does "tldr" mean?
 
 TL;DR stands for "Too Long; Didn't Read".
 It originates in Internet slang, where it is used to indicate that a long text
 (or parts of it) has been skipped as too lengthy.
-Read more in Wikipedia's [TL;DR article](https://en.wikipedia.org/wiki/TL;DR).
+Read more in How-To Geek's [article](https://www.howtogeek.com/435266/what-does-tldr-mean-and-how-do-you-use-it/).

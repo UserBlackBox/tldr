@@ -2,7 +2,7 @@
 
 > Ferramenta de compressão de arquivos.
 > Utilizado com metodos de compressão como o de gzip ou bzip.
-> Mais informações no site: <https://www.gnu.org/software/tar>
+> Mais informações: <https://www.gnu.org/software/tar>
 
 - Compactando arquivos em um arquivo tar:
 
@@ -30,7 +30,7 @@
 
 - Extrair arquivos seguindo um padrão:
 
-`tar -xvf {{input.tar}} --wildcards {{"*.html"}}`
+`tar -xvf {{input.tar}} --wildcards "{{*.html}}"`
 
 - Listando arquivos de um arquivo tar:
 

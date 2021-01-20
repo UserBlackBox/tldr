@@ -11,6 +11,10 @@
 
 `tldr -p {{linux}} {{tar}}`
 
-- Get help for a git subcommand:
+- Get help for a Git subcommand:
 
 `tldr {{git-checkout}}`
+
+- Update local pages (if the client supports caching):
+
+`tldr -u`
